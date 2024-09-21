@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js"></script>
+</head>
+<body>
+
+<div id="image">
+    Hover over an image below to display here.
+</div>
+<br/>
+<div class="grid">
+
+    <img class="preview" alt="Cooking" src="images/cooking.jpg"
+         onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" alt="Gaming" src="images/gaming.jpg"
+         onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" alt="Trekking" src="images/trekking.jpg"
+         onmouseover="upDate(this)" onmouseout="unDo()">
+</div>
+
+
+</body>
+</html>
